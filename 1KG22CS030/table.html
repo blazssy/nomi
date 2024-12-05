@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Time Table</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 20px;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+}
+th, td {
+border: 1px solid #00000000;
+padding: 8px;
+text-align: center;
+}
+th {
+background-color: #ececec;
+}
+.lab-hours {
+background-color: #32618d;
+}
+.break {
+background-color: #27ec15;
+}
+tfoot {
+background-color: #9b93bb;
+font-weight: bold;
+}
+tr:nth-child(even) {
+background-color: #dddddd45;
+}
+tr:nth-child(odd) {
+background-color: #ccc0c0ef;
+}
+</style>
+</head>
+<body>
+
+<table>
+<thead>
+<tr>
+<th colspan="10"><h2 style="margin-bottom: 0px;
+
+margin-top: 0px;">TIME TABLE</h2></th>
+
+</tr>
+<tr>
+<th scope="col"><b>DAY</b></th>
+<th scope="col">8:40-9:35</th>
+<th scope="col">9:35-10:30</th>
+<th scope="col">10:30-10:45</th>
+<th scope="col">10:45-11:40</th>
+<th scope="col">11:40-12:35</th>
+<th scope="col">12:35-1:20</th>
+<th scope="col">1:20-2:10</th>
+<th scope="col">2:10-3:00</th>
+<th scope="col">3:00-3:50</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Monday</th>
+<td>SE</td>
+<td>CG</td>
+<td class="break">Tea Break</td>
+<td>CN</td>
+<td>RMIP</td>
+<td rowspan="5" class="break">LUNCH BREAK</td>
+<td colspan="3" class="lab-hours">Mini Project</td>
+</tr>
+<tr>
+<th scope="row">Tuesday</th>
+<td colspan="4" class="lab-hours">CN Lab</td>
+<td>SE</td>
+<td>RMIP</td>
+<td>TOC</td>
+<td>CN</td>
+</tr>
+<tr>
+<th scope="row">Wednesday</th>
+<td>SE</td>
+<td>TOC</td>
+<td class="break">Tea Break</td>
+<td>TOC</td>
+<td>EWS-EV</td>
+<td>RMIP</td>
+<td>CG</td>
+
+<td>CN</td>
+</tr>
+<tr>
+<th scope="row">Thursday</th>
+<td colspan="4" class="lab-hours">WEB Lab</td>
+<td>CG</td>
+<td>EWS-EV</td>
+<td>CN</td>
+<td>RMIP</td>
+</tr>
+<tr>
+<th scope="row">Friday</th>
+<td>CG</td>
+<td>TOC</td>
+<td class="break">Tea Break</td>
+<td>TOC</td>
+<td>SE</td>
+<td>Tutorial</td>
+<td colspan="2">YOGA</td>
+</tr>
+<tr>
+<th scope="row">Saturday</th>
+<td colspan="9">As Per Calender of Events. -SHREYAS.D</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="10" class="foot">* <u>Lab hours</u> are
+
+highlighted in Blue, <u>Breaks</u> in Light Green</td>
+
+</tr>
+</tfoot>
+</table>
+</body>
+</html>
